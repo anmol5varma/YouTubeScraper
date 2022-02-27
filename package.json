@@ -1,0 +1,25 @@
+{
+  "name": "youtube-scraper",
+  "version": "0.0.1",
+  "description": "Get details of all videos on a channel.",
+  "main": "index.js",
+  "homepage": "",
+  "repository": "",
+  "scripts": {
+    "dev": "npx nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "anmol5varma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fast-csv": "^4.3.6",
+    "request-promise-native": "^1.0.9",
+    "urijs": "^1.19.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
